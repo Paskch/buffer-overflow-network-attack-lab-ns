@@ -15,6 +15,7 @@ The project includes:
 - An IDS system implemented with Snort with some **IDS rules** for detecting the attack.
 - **IDS evasion techniques** to demonstrate the limitations of rule-based systems.
   The scenario has been implemented in a containerised environment in which the entities interact according to the following network scheme:
+
   ![](img/schema.png)
 
 ---
@@ -41,6 +42,7 @@ echo 0 > /proc/sys/kernel/randomize_va_space
 
 Connecting to the server will ask you to enter your credentials to access the system; if you enter the correct credentials, the system responds with an authentication message and returns an ASCII Art.
 ![](img/access.png)
+
 The attacking client can test the service by first sending a large input using python from the command line:
 
 ```bash
